@@ -1,0 +1,16 @@
+{
+  "name": "koka",
+  "module": "dist/bundle.js",
+  "type": "module",
+  "scripts": {
+    "build": "bun run scripts/build.ts",
+    "start": "bun run dist/main.js",
+    "clean": "bun run scripts/clean.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "koka-pkg/std": "koka-community/std#a0996d9",
+    "typescript": "5.6.2",
+    "zx": "8.1.7"
+  }
+}
