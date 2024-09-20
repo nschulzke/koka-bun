@@ -1,4 +1,4 @@
-import server
+import koka-bun/serve
 
 fun main()
   server(3000) fn(request)

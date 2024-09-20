@@ -8,9 +8,12 @@
     "clean": "koka-bun clean"
   },
   "devDependencies": {
-    "@koka-bun/cli": "koka-bun/cli#642051b",
-    "@types/bun": "latest",
-    "koka-pkg/std": "koka-community/std#642051b",
-    "typescript": "5.6.2"
+    "@koka-bun/cli": "koka-bun/cli#7624ba0",
+    "@koka-bun/bind": "koka-bun/bind#cb106fd",
+    "koka-pkg/std": "koka-community/std#a0996d9"
+  },
+  "koka-bun": {
+    "main": "src/main.kk",
+    "root": "."
   }
 }
