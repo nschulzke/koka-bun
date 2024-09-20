@@ -3,14 +3,14 @@
   "module": "dist/bundle.js",
   "type": "module",
   "scripts": {
-    "build": "bun run scripts/build.ts",
+    "build": "koka-bun build",
     "start": "bun run dist/main.js",
-    "clean": "bun run scripts/clean.ts"
+    "clean": "koka-bun clean"
   },
   "devDependencies": {
+    "@koka-bun/cli": "koka-bun/cli#642051b",
     "@types/bun": "latest",
-    "koka-pkg/std": "koka-community/std#a0996d9",
-    "typescript": "5.6.2",
-    "zx": "8.1.7"
+    "koka-pkg/std": "koka-community/std#642051b",
+    "typescript": "5.6.2"
   }
 }
